@@ -1,9 +1,13 @@
 # order API endpoints
 ***
 **endpoint:** api/order/list/
+
 **method:** GET
+
 **serializer:** OrderListSerializer
+
 **view:** OrderListAPIView
+
 **filterset_fields:** ['is_delivered', 'shipping_address']
 
 
@@ -41,9 +45,13 @@
 ```
 ***
 **endpoint:** api/order/detail/<order_key>/
+
 **method:** GET
+
 **serializer:** OrderDetailSerializer
+
 **view:** OrderDetailAPIView
+
 
 ## JSON
 ```
@@ -107,9 +115,13 @@
 ```
 ***
 **endpoint:** api/order/item/detail/<item_key>/
+
 **method:** GET
+
 **serializer:** OrderItemDetailSerializer
+
 **view:** OrderItemDetailAPIView
+
 
 ## JSON
 ```
@@ -130,8 +142,11 @@
 ```
 ***
 **endpoint:** api/order/create/
+
 **method:** POST
+
 **view:** OrderCreateAPIView
+
 
 ## Fields
 - **is_paid** - bool -> True
@@ -143,7 +158,8 @@
 - **shipping_price** - double -> 20.0
 - **cartItems** - List -> ['..','..']
 
+
 ## JSON
 ```
-
+...
 ```

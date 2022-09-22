@@ -1,9 +1,13 @@
 # autopart API endpoints
 ***
 **endpoint:** api/autopart/products/
+
 **method:** GET
+
 **serializer:** ProductListSerializer
+
 **view:** ProductListAPIView
+
 
 ## JSON
 ```
@@ -58,9 +62,13 @@
 ```
 ***
 **endpoint:** api/autopart/product/<slug>/
+
 **method:** GET
+
 **serializer:** ProductDetailSerializer
+
 **view:** ProductDetailAPIView
+
 
 ## JSON
 ```
@@ -111,9 +119,13 @@
 ```
 ***
 **endpoint:** api/autopart/manufacturers/
+
 **method:** GET
+
 **serializer:** ManufacturerListSerializer
+
 **view:** ManufacturerListAPIView
+
 
 ## JSON
 ```
@@ -142,9 +154,13 @@
 ```
 ***
 **endpoint:** api/autopart/manufacturer/<slug>/
+
 **method:** GET
+
 **serializer:** ManufacturerDetailSerializer
+
 **view:** ManufacturerDetailAPIView
+
 
 ## JSON
 ```
@@ -203,9 +219,13 @@
 ```
 ***
 **endpoint:** api/autopart/brands/
+
 **method:** GET
+
 **serializer:** CarBrandListSerializer
+
 **view:** CarBrandListAPIView
+
 
 ## JSON
 ```
@@ -234,9 +254,13 @@
 ```
 ***
 **endpoint:** api/autopart/brand/<slug>/
+
 **method:** GET
+
 **serializer:** CarBrandDetailSerializer
+
 **view:** CarBrandDetailAPIView
+
 
 ## JSON
 ```

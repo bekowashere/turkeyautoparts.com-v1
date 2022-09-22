@@ -1,6 +1,7 @@
 # account API endpoints
 ***
 **endpoint:** api/token/
+
 **method:** POST
 
 ## Fields
@@ -141,6 +142,7 @@
 
 ***
 **endpoint:** api/account/register/customer/
+
 **method:** POST
 
 ## Fields
@@ -169,6 +171,7 @@
 
 ***
 **endpoint:** api/account/customer/<user__username>/
+
 **method:** GET
 
 ## JSON
@@ -187,6 +190,7 @@
 
 ***
 **endpoint:** /api/account/customer/update/information/
+
 **method:** PUT
 
 ## Fields
@@ -251,6 +255,7 @@
 
 ***
 **endpoint:** /api/account/customer/update/default-address/
+
 **method:** PUT
 
 ## Fields
@@ -264,6 +269,7 @@
 
 ***
 **endpoint:** api/account/customer/change/address/
+
 **method:** POST
 
 ## Fields
@@ -411,6 +417,7 @@
 
 ***
 **endpoint:** api/account/register/supplier/
+
 **method:** POST
 
 ## Fields
@@ -500,6 +507,7 @@
 
 ***
 **endpoint:** api/account/supplier/update/username/
+
 **method:** PUT
 
 ## Fields
@@ -517,6 +525,7 @@
 ```
 ***
 **endpoint:** api/account/supplier/update/information/
+
 **method:** PUT
 
 ## Fields
@@ -559,6 +568,7 @@
 ```
 ***
 **endpoint:** api/account/supplier/update/address/
+
 **method:** PUT
 
 ## Fields
@@ -600,6 +610,7 @@
 ```
 ***
 **endpoint:** api/account/supplier/update/image/
+
 **method:** PUT
 
 ## Fields

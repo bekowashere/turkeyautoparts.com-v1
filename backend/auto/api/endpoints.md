@@ -1,10 +1,15 @@
 # auto API endpoints
 ***
 **endpoint:** api/auto/brands/
+
 **method:** GET
+
 **serializer:** BrandListSerializer
+
 **view:** BrandListAPIView
+
 **autoevolution:** /cars
+
 
 ## JSON
 ```
@@ -53,10 +58,15 @@
 ```
 ***
 **endpoint:** api/auto/brands/detail/<brand_slug>
+
 **method:** GET
+
 **serializer:** BrandDetailSerializer
+
 **view:** BrandDetailAPIView
+
 **autoevolution:** /bmw
+
 
 ## JSON
 ```
@@ -139,49 +149,77 @@
 ```
 ***
 **endpoint:** api/auto/series/detail/<series_slug>
+
 **method:** GET
+
 **serializer:** SeriesDetailSerializer
+
 **view:** SeriesDetailAPIView
+
 **autoevolution:** /bmw/3-series-sedan/
+
 
 ## JSON
 ```
+...
 ```
 ***
 **endpoint:** api/auto/models/detail/<model_slug>
+
 **method:** GET
+
 **serializer:** ModelDetailSerializer
+
 **view:** ModelDetailAPIView
+
 **autoevolution:** /cars/bmw-3-series-sedan-2018.html#aeng_bmw-3-series-sedan-g20-2018-320i-8at-184-hp
+
 
 ## JSON
 ```
+...
 ```
 ***
 **endpoint:** api/auto/cars/detail/<car_slug>
+
 **method:** GET
+
 **serializer:** CarDetailSerializer
+
 **view:** CarDetailAPIView
+
 **autoevolution:** /cars/bmw-3-series-sedan-2018.html#aeng_bmw-3-series-sedan-g20-2018-320i-8at-184-hp
+
 
 ## JSON
 ```
+...
 ```
 ***
 **endpoint:** api/auto/series/
+
 **method:** GET
+
 **serializer:** SeriesListSerializer
+
 **view:** SeriesListAPIView
+
 
 ## JSON
 ```
+...
 ```
 ***
 **endpoint:** api/auto/models/
+
 **method:** GET
+
 **serializer:** ModelListSerializer
+
 **view:** ModelListAPIView
+
 
 ## JSON
 ```
+...
 ```
